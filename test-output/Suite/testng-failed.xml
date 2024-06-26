@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="name" value="Goduguluri"/>
+  <test thread-count="5" name="CarLoan(failed)">
+    <parameter name="name" value="Kumar"/>
+    <classes>
+      <class name="test.P3">
+        <methods>
+          <include name="carLoanMethod01"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- test.P3 -->
+    </classes>
+  </test> <!-- CarLoan(failed) -->
+</suite> <!-- Failed suite [Suite] -->

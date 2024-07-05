@@ -9,6 +9,7 @@ public class O1 {
 	public void method02() {
 		
 		System.out.println("Method 02");
+		System.out.println("GIT Test");
 	}
 
 }
